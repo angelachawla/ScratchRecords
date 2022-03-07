@@ -1,0 +1,271 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*/
+/* HTML5 display-role reset for older browsers */
+/*
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("images/paperbackground2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+	min-height: 100%;
+	min-width: 100%;
+	padding: 0;
+	position:relative;
+	margin: 0;
+}
+
+/*body{
+	position:relative;
+}*/
+
+.navlist{
+	font-family: burnaby-stencil, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2em;
+}
+
+.center {
+    width: 50%;
+	padding: 2%;
+    margin: auto;
+ 	/*background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	/*border: 4px dashed white;*/
+}
+
+   
+#logo {
+	width: 100%;
+	margin: auto;
+	/*border: 3px dashed red;*/
+}
+
+#image {
+	display: block;
+	width: 80%;
+	margin-top:200px;
+	margin-bottom: 80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: burnaby-stencil, sans-serif;
+	line-height: 1em;
+	letter-spacing: .03em;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4em;
+    margin: 0px auto 10px auto;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: quire-sans,sans-serif;
+	 font-weight: 800;
+	 font-style: normal;
+	 color: rgb(255, 255, 255);
+}
+
+p  {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: quire-sans,sans-serif;
+	 font-weight: 400;
+	 font-style: normal;
+	 margin-bottom: 1.5em;
+	 color: rgb(255, 255, 255);
+}
+
+.list{
+	 font-family: quire-sans,sans-serif;
+	 font-weight: 400;
+	 font-style: normal;
+	 margin-bottom: .5em;
+	 color: rgb(255, 255, 255);
+}
+
+
+
+nav{
+	font-family: burnaby-stencil, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	letter-spacing: .04em;
+	width: 60%; /* This is the width of the nav element */
+	position: fixed;
+	top:0;
+	right:0;
+	margin: 0 auto; /* This centers the entire nav element inside  
+	the center div */
+	background-color: rgb(0,0,0,.75);
+	text-align: center;
+	/*margin-top: 2em; /* This adds a bit of space above the nav element */
+	}
+
+nav li{
+   display: inline; /* This allows 
+   the block level elements to 
+   display next to one another */
+   }
+	
+nav a{
+   display: inline-block;
+   padding-left: 15px; 
+   padding-right: 15px;
+   padding-top: 0;
+   }
+a{
+   color: rgb(255, 255, 255);
+   text-decoration: none; /* This 
+   removes the underline */
+   }
+	
+a:hover{
+   color: rgb(255, 255, 255);
+   background: rgb(78, 78, 78); /* This is the 
+   pink hover effect -- you’ll want to  
+   change this! */
+   }
+
+.text{
+	width: 100%;
+	column-count: 1;
+	/*margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;*/
+	text-align: center;
+	position:relative;
+	padding-top: 5%;
+	padding-bottom: 1%;
+	padding-left: 15%;
+	padding-right: 15%;
+ 	background: rgb(0, 0, 0, .75);
+}
+
+.textevents{
+	width: 100%;
+	column-count: 1;
+	/*margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;*/
+	text-align: center;
+	position:relative;
+	padding-top: 5%;
+	padding-bottom: 1%;
+	padding-left: 15%;
+	padding-right: 15%;
+ 	background: rgb(0, 0, 0, .75);
+}
+
+.column{
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: left;
+}
+
+.footer{
+	position: relative;
+	margin-top: 70px;
+	margin-bottom: 0, auto;
+	min-height: 45px;
+	left:0;
+	right:0;
+	bottom:0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	background-color: rgb(0, 0, 0, .75);
+}
+
+/* globals */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* simple cards */
+.simple-cards {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.items {
+  width: calc(33% - 1rem);
+  color: var(--blue-color);
+  background-color: rgb(0, 0, 0, .75);
+  padding: 3%;
+}
