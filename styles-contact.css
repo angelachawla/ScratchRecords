@@ -32,10 +32,6 @@ body{
 	margin: 0;
 }
 
-/*body{
-	position:relative;
-}*/
-
 .navlist{
 	font-family: burnaby-stencil, sans-serif;
 	font-weight: 400;
@@ -44,20 +40,17 @@ body{
 }
 
 .center {
-    width: 50%;
+    	width: 50%;
 	padding: 2%;
-    margin: auto;
- 	/*background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    	margin: auto;
 	text-align: center;
-	/*border: 4px dashed white;*/
 }
 
    
 #logo {
 	width: 100%;
-	margin-top:100px;
 	margin: auto;
-	/*border: 3px dashed red;*/
+	margin-top:100px;
 }
 
 #image {
@@ -70,19 +63,17 @@ body{
 }
 
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-family: burnaby-stencil, sans-serif;
 	line-height: 1em;
 	letter-spacing: .03em;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 4em;
-    margin: 0px auto 10px auto;
-    color: rgb(255, 255, 255);
+   	 margin: 0px auto 10px auto;
+    	color: rgb(255, 255, 255);
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	 font-family: quire-sans,sans-serif;
 	 font-weight: 800;
 	 font-style: normal;
@@ -90,7 +81,6 @@ h2 {
 }
 
 p  {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	 font-family: quire-sans,sans-serif;
 	 font-weight: 400;
 	 font-style: normal;
@@ -106,57 +96,46 @@ p  {
 	 color: rgb(255, 255, 255);
 }
 
-
-
 nav{
 	font-family: burnaby-stencil, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5em;
 	letter-spacing: .04em;
-	width: 60%; /* This is the width of the nav element */
+	width: 60%;
 	position: fixed;
 	top:0;
 	right:0;
-	margin: 0 auto; /* This centers the entire nav element inside  
-	the center div */
+	margin: 0 auto;
 	background-color: rgb(0,0,0,.75);
 	text-align: center;
-	/*margin-top: 2em; /* This adds a bit of space above the nav element */
-	}
+}
 
 nav li{
-   display: inline; /* This allows 
-   the block level elements to 
-   display next to one another */
-   }
+  	display: inline; 
+}
 	
 nav a{
-   display: inline-block;
-   padding-left: 15px; 
-   padding-right: 15px;
-   padding-top: 0;
-   }
+   	display: inline-block;
+   	padding-left: 15px; 
+   	padding-right: 15px;
+   	padding-top: 0;
+}
+
 a{
-   color: rgb(255, 255, 255);
-   text-decoration: none; /* This 
-   removes the underline */
+   	color: rgb(255, 255, 255);
+   	text-decoration: none; /* This 
+   	removes the underline */
    }
 	
 a:hover{
-   color: rgb(255, 255, 255);
-   background: rgb(78, 78, 78); /* This is the 
-   pink hover effect -- you’ll want to  
-   change this! */
-   }
+  	color: rgb(255, 255, 255);
+   	background: rgb(78, 78, 78); 
+}
 
 .text{
 	width: 100%;
 	column-count: 1;
-	/*margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 10%;
-	margin-bottom: 10%;*/
 	text-align: center;
 	position:relative;
 	padding-top: 5%;
@@ -169,10 +148,6 @@ a:hover{
 .textevents{
 	width: 100%;
 	column-count: 1;
-	/*margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 10%;
-	margin-bottom: 10%;*/
 	text-align: center;
 	position:relative;
 	padding-top: 5%;
@@ -204,19 +179,19 @@ a:hover{
 
 /* globals */
 .container {
-  width: 70%;
-  margin: 0 auto;
+  	width: 70%;
+  	margin: 0 auto;
 }
 
 /* simple cards */
 .simple-cards {
-  margin-top: 5rem;
-  display: flex;
-  justify-content: space-between;
+  	margin-top: 5rem;
+  	display: flex;
+  	justify-content: space-between;
 }
 .items {
-  width: calc(33% - 1rem);
-  color: var(--blue-color);
-  background-color: rgb(0, 0, 0, .75);
-  padding: 3%;
+  	width: calc(33% - 1rem);
+  	color: var(--blue-color);
+  	background-color: rgb(0, 0, 0, .75);
+  	padding: 3%;
 }
